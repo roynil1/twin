@@ -1,0 +1,78 @@
+# ------------------------------------------------------------
+# GLOBAL .gitignore FOR FULLSTACK (Next.js + Python)
+# ------------------------------------------------------------
+
+# ============================================================
+# NODE / NEXT.JS (FRONTEND)
+# ============================================================
+
+# Dependencies
+node_modules/
+
+# Next.js build directories
+.next/
+out/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Local environment overrides
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+
+# ============================================================
+# PYTHON (BACKEND)
+# ============================================================
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Python env files
+.env
+.env.*
+*.env
+
+
+# ============================================================
+# EDITOR / OS
+# ============================================================
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ------------------------------------------------------------
+# END
+# ------------------------------------------------------------

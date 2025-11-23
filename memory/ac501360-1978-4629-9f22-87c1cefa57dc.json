@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "hei "
+  },
+  {
+    "role": "assistant",
+    "content": "Hei! Hvordan kan jeg hjelpe deg i dag? Er det noe spesifikt du ønsker å vite om meg eller mine interesser?"
+  },
+  {
+    "role": "user",
+    "content": "husker du hva jeg skrev inn her først"
+  },
+  {
+    "role": "assistant",
+    "content": "Ja, du startet med \"hei\". Jeg er her for å hjelpe deg med spørsmål eller informasjon! Hva vil du gjerne snakke om?"
+  }
+]
